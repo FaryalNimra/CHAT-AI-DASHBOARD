@@ -1,0 +1,185 @@
+.element9-container {
+    position: relative; /* Ensure the container is relatively positioned */
+    padding: 20px;
+    background-color: #f8f9fa;
+
+    .element9-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .element9-heading {
+        margin: 0;
+        font-size: 24px;
+        color: #343434;
+        font-family: 'Helvetica', sans-serif;
+        font-weight: bold;
+    }
+
+    .element9-heading1 {
+        margin: 0;
+        font-size: 18px;
+        color: #343434;
+        font-family: 'Helvetica', sans-serif;
+        margin-left: 20px;
+    }
+
+    .element9-heading2 {
+        margin: 0;
+        font-size: 18px;
+        color: #343434;
+        font-family: 'Helvetica', sans-serif;
+        margin-left: 2px;
+    }
+
+    .element9-search-container {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+
+        .element9-search-input {
+            padding: 5px;
+            border: 1px solid white;
+            border-radius: 4px;
+            font-size: 14px;
+            color: #343434;
+            font-family: 'Helvetica', sans-serif;
+        }
+
+        .element9-search-icon {
+            width: 20px;
+            height: 20px;
+            margin-left: 10px;
+        }
+
+        .element9-more-icon {
+            width: 20px;
+            height: 20px;
+            margin-left: 10px;
+        }
+    }
+
+    .element9-row-content {
+        margin-top: 60px;
+        display: flex;
+        align-items: center;
+
+        .element9-left-image,
+        .element9-right-image {
+            width: auto;
+            height: auto;
+        }
+
+        .element9-left-image {
+            margin-right: 5px;
+            margin-left: 5px;
+        }
+
+        .element9-right-image {
+            margin-left: 5px;
+        }
+
+        .element9-spacer {
+            flex-grow: 1;
+        }
+
+        .element9-button {
+            display: flex;
+            align-items: center;
+            padding: 5px 10px;
+            background-color: #0C0698;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-family: 'Helvetica', sans-serif;
+
+            .element9-button-icon {
+                width: 18px;
+                height: 18px;
+                margin-right: 5px;
+            }
+        }
+    }
+
+    .element9-table {
+        width: 100%;
+        margin-top: 80px;
+        margin-bottom: 50px;
+        border-collapse: collapse;
+        padding-left: 50px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+
+        th, td {
+            border: 1px solid #f8f9fa;
+            padding: 8px;
+            text-align: left;
+            color: #A1A5B7;
+        }
+
+        th {
+            background-color: #f8f9fa;
+            font-family: 'Helvetica', sans-serif;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: white;
+        }
+
+        tr:hover {
+            color: #0C0698;
+        }
+
+        .highlight {
+            background-color: #f8f9fa;
+        }
+
+        .status-active {
+            color: #50CD89;
+            font-weight: bold; /* Change text color to green for active status */
+        }
+
+        .status-inactive {
+            color:
+            #F1416C;
+            font-weight: bold;  /* Change text color to red for inactive status */
+        }
+
+        .action-icon {
+            width: 15px;
+            height: 15px;
+        }
+
+        .rows-per-page {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            color: #343434;
+
+            .rows-icon {
+                width: 15px;
+                height: 15px;
+                margin-left: 5px;
+            }
+        }
+    }
+
+    .end {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        color: #555555;
+
+        .end-icon {
+            width: 14px;
+            height: auto;
+            margin-left: 5px;
+        }
+    }
+}

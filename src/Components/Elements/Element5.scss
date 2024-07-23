@@ -1,0 +1,103 @@
+.element5-container {
+    width: 100%;
+    max-width: 500px;
+    background-color: #FCFCFC;
+
+    font-family: 'Helvetica', sans-serif;
+  
+    .element5-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px;
+  
+      h2 {
+        margin: 0;
+        color: #0C0698;
+        font-family: 'Helvetica', sans-serif;
+        font-size: 28px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+  
+      .element5-add-icon {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  
+    .element5-search-bar {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+  
+      .element5-search-bar-icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+      }
+  
+      input {
+        width: 100%;
+        padding: 5px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+  
+        &:focus {
+          border-color: transparent;
+        }
+      }
+    }
+  
+    .element5-messages {
+      .element5-message-row {
+        display: flex;
+        padding: 10px;
+        border-bottom: 1px solid #f1f1f1;
+        font-family: 'Helvetica', sans-serif;
+        .element5-message-icon {
+          width: 40px;
+          height: 40px;
+          margin-right: 10px;
+        }
+  
+        .element5-message-content {
+          flex-grow: 1;
+  
+          .element5-message-title {
+            font-weight: bold;
+            margin: 0;
+            color: #343434;
+            font-family: 'Helvetica', sans-serif;
+          }
+  
+          .element5-message-text {
+            margin: 5px 0;
+            color: #343434;
+            font-family: 'Helvetica', sans-serif;
+          }
+  
+          .element5-message-footer {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            color: #B9B9B9;
+            font-family: 'Helvetica', sans-serif;
+          }
+        }
+      }
+    }
+  }
+  
+  // For responsiveness using Bootstrap
+  @import 'node_modules/bootstrap/scss/bootstrap';
+  
+  @media (max-width: 768px) {
+    .element5-container {
+      max-width: 100%;
+      margin-top: 20px;
+    }
+  }
+  

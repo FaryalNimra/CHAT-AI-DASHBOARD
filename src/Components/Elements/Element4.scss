@@ -1,0 +1,52 @@
+.element4-row-content {
+  margin-top: 0; /* Remove top margin */
+  display: flex;
+  align-items: center;
+  width: 100%; /* Set width to 100% */
+  max-width: none; /* Remove max-width restriction */
+  justify-content: flex-end;
+}
+
+.element4-right-container {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.element4-heading-container {
+  margin-right: auto;
+  color: #0C0698;
+  margin-top: 0;
+ 
+}
+
+.element4-heading2 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.element4-button {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: #0C0698;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Helvetica', sans-serif;
+  margin-right: 10px;
+
+  .element4-button-icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+  }
+}
+
+.element4-search-icon,
+.element4-more-icon {
+  width: 18px;
+  height: 18px;
+  margin-left: 10px;
+}
